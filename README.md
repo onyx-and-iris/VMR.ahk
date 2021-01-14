@@ -1,6 +1,3 @@
-
-## AutoHotkey wrapper class for Voicemeeter Remote API.
-
 ###  Getting Started
 1.  To use `VMR` in your script, include it using `#Include VMR.ahk` or copy it to a [library folder](https://www.autohotkey.com/docs/Functions.htm#lib) and use `#Include <VMR>`
 
