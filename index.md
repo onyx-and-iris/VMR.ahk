@@ -2,6 +2,7 @@
 layout: default
 title: Getting started
 nav_order: 1
+permalink: /
 ---
 ###  Getting started
 To use `VMR.ahk` in your script, follow these steps:
