@@ -1,6 +1,7 @@
 ---
 layout: default
 title: bus/strip object
+parent: VMR-Object
 nav_order: 3
 ---
 # `bus`/`strip` object
