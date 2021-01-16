@@ -1,4 +1,9 @@
-###  Getting Started
+---
+layout: default
+title: Getting started
+nav_order: 1
+---
+###  Getting started
 To use `VMR.ahk` in your script, follow these steps:
 1.  Include it using `#Include VMR.ahk` or copy it to a [library folder](https://www.autohotkey.com/docs/Functions.htm#lib) and use `#Include <VMR>`
 
@@ -19,3 +24,4 @@ To use `VMR.ahk` in your script, follow these steps:
         voicemeeter.bus[1].mute:= true
         voicemeeter.strip[4].gain++
     ```
+##### This documentation is for VMR.ahk, If you need help with the Voicemeeter API check out [their documentation](http://download.vb-audio.com/Download_CABLE/VoicemeeterRemoteAPI.pdf)
