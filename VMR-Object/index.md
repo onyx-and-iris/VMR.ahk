@@ -3,7 +3,7 @@ layout: default
 title: VMR Object
 has_children: true
 nav_order: 2
-permalink: /VMR-Object
+has_toc: false
 ---
 
 # VMR Object
@@ -13,23 +13,20 @@ permalink: /VMR-Object
 ## `bus` and `strip` Arrays
 Array of [`bus`/`strip` objects]({{ site.baseurl }}{% link VMR-Object/bus-strip-object.md %}).
 
-## [`command` Object]()
-Use this object to access command methods.
-
-## [`recorder` Object]()
+## [`recorder` Object]({{ site.baseurl }}{% link VMR-Object/recorder-object.md %})
 Use this object to control voicemeeter's recorder.
 
-## [`option` Object]()
-Use this object to access/modify option parameters.
-
-## [`macroButton` Object]()
-Use this object to access/modify macro buttons statuses.
-
-## [`vban` Object]()
+## [`vban` Object]({{ site.baseurl }}{% link VMR-Object/vban-object.md %})
 Use this object to control VoiceMeeter's VBAN interface
 
-## `command` Object
-Use this object to access [command methods]()
+## [`command` Object]({{ site.baseurl }}{% link VMR-Object/command-object.md %})
+Use this object to access command methods.
+
+## [`option` Object]({{ site.baseurl }}{% link VMR-Object/option-object.md %})
+Use this object to access/modify option parameters.
+
+## [`macroButton` Object]({{ site.baseurl }}{% link VMR-Object/macroButton-object.md %})
+Use this object to access/modify macro buttons statuses.
 
 ---
 
@@ -58,5 +55,5 @@ Runs the highest version installed , or a specific version if `type` is specifie
 
 `3` : Voicemeeter Potato
 ## `updateDevices()`
-Updates the internal array of input and output devices, that is used for setting bus/strips devices
+Updates the internal array of input and output devices, that's used for setting bus/strips devices
  
