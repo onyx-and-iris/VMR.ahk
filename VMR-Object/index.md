@@ -14,19 +14,19 @@ has_toc: false
 ## `bus` and `strip` Arrays
 Array of [`bus`/`strip` objects]({{ site.baseurl }}{% link VMR-Object/bus-strip-object.md %}).
 
-## [`recorder` Object]({{ site.baseurl }}{% link VMR-Object/recorder-object.md %})
+## [`recorder` Object]()
 Use this object to control voicemeeter's recorder.
 
-## [`vban` Object]({{ site.baseurl }}{% link VMR-Object/vban-object.md %})
+## [`vban` Object]()
 Use this object to control VoiceMeeter's VBAN interface
 
-## [`command` Object]({{ site.baseurl }}{% link VMR-Object/command-object.md %})
+## [`command` Object]()
 Use this object to access command methods.
 
-## [`option` Object]({{ site.baseurl }}{% link VMR-Object/option-object.md %})
+## [`option` Object]()
 Use this object to access/modify option parameters.
 
-## [`macroButton` Object]({{ site.baseurl }}{% link VMR-Object/macroButton-object.md %})
+## [`macroButton` Object]()
 Use this object to access/modify macro buttons statuses.
 
 ---

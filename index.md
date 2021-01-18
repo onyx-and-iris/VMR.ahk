@@ -20,7 +20,7 @@ To use `VMR.ahk` in your script, follow these steps:
     ```
         voicemeeter.login()
     ```
-4. The `VMR` object will have two arrays, [`bus`]({{ site.baseurl }}{% link VMR-Object/bus-strip-object.md# %}) and [`strip`]({{ site.baseurl }}{% link VMR-Object/bus-strip-object.md %}), as well as [other objects]({{ site.baseurl }}{% link VMR-Object/index.md %}), that will allow you to control voicemeeter in AHK.
+4. The `VMR` object will have two arrays, [`bus`]({{ site.baseurl }}{% link VMR-Object/bus-strip-object.md %}) and [`strip`]({{ site.baseurl }}{% link VMR-Object/bus-strip-object.md %}), as well as [other objects]({{ site.baseurl }}{% link VMR-Object/index.md %}), that will allow you to control voicemeeter in AHK.
     ```
         voicemeeter.bus[1].mute:= true
         voicemeeter.strip[4].gain++
