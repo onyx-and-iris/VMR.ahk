@@ -9,6 +9,8 @@ nav_order: 4
 Use this object to control VoiceMeeter’s VBAN interface.
 
 ---
+##### for a list of all `vban` parameters, check out [VBVMR docs](http://download.vb-audio.com/Download_CABLE/VoicemeeterRemoteAPI.pdf#page=17)
+
 ## Set any parameter
 
 ```lua
@@ -28,4 +30,3 @@ Use this object to control VoiceMeeter’s VBAN interface.
     stream_channels:= voicemeeter.vban.instream[2].channel
 ```
 
-##### for a list of all `vban` parameters, check out [VBVMR docs](http://download.vb-audio.com/Download_CABLE/VoicemeeterRemoteAPI.pdf#page=17)

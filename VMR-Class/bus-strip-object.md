@@ -7,9 +7,9 @@ nav_order: 2
 # `bus`/`strip` object
 
 Use this object to access or modify bus/strip parameters.
-for a list of all parameters, check out [VBVMR docs](http://download.vb-audio.com/Download_CABLE/VoicemeeterRemoteAPI.pdf#page=11)
 
 ---
+##### for a list of all `bus`/`strip` parameters, check out [VBVMR docs](http://download.vb-audio.com/Download_CABLE/VoicemeeterRemoteAPI.pdf#page=11)
 
 ## Set any parameter
 
