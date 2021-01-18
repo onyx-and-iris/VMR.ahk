@@ -1,4 +1,4 @@
-title: "VMR.ahk"
+title: "VMR.ahk Docs"
 description: "AutoHotkey wrapper class for Voicemeeter Remote API"
 remote_theme: pmarsceill/just-the-docs
 theme: "just-the-docs"

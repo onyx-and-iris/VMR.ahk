@@ -7,7 +7,6 @@ nav_order: 3
 # `recorder` object
 
 Use this object to control VoiceMeeter Banana/Potato's recorder.
-for a list of all recorder parameters, check out [VBVMR docs](http://download.vb-audio.com/Download_CABLE/VoicemeeterRemoteAPI.pdf#page=16)
 
 ---
 
@@ -28,6 +27,7 @@ for a list of all recorder parameters, check out [VBVMR docs](http://download.vb
 ```lua
     recorder_gain:= voicemeeter.recorder.gain
 ```
+##### for a list of all `recorder` parameters, check out [VBVMR docs](http://download.vb-audio.com/Download_CABLE/VoicemeeterRemoteAPI.pdf#page=16)
 
 ---
 

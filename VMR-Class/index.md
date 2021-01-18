@@ -17,16 +17,16 @@ Array of [`bus`/`strip` objects]({{ site.baseurl }}{% link VMR-Class/bus-strip-o
 ## [`recorder` Object]({{ site.baseurl }}{% link VMR-Class/recorder-object.md %})
 Use this object to control voicemeeter's recorder.
 
-## [`vban` Object]()
+## [`vban` Object]({{ site.baseurl }}{% link VMR-Class/vban-object.md %})
 Use this object to control VoiceMeeter's VBAN interface
 
-## [`command` Object]()
+## [`command` Object]({{ site.baseurl }}{% link VMR-Class/command-object.md %})
 Use this object to access command methods.
 
-## [`option` Object]()
+## [`option` Object]({{ site.baseurl }}{% link VMR-Class/option-object.md %})
 Use this object to access/modify option parameters.
 
-## [`macroButton` Object]()
+## [`macroButton` Object]({{ site.baseurl }}{% link VMR-Class/macrobutton-object.md %})
 Use this object to access/modify macro buttons statuses.
 
 ---
