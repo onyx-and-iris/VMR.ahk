@@ -1,8 +1,8 @@
 title: "VMR.ahk"
 description: "AutoHotkey wrapper class for Voicemeeter Remote API"
 remote_theme: pmarsceill/just-the-docs
+theme: "just-the-docs"
 baseurl: "/VMR.ahk"
-url: "https://saifaqqad.github.io"
 permalink: pretty
 search_enabled: true
 aux_links:

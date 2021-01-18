@@ -7,14 +7,14 @@ permalink: /VMR-Class
 has_toc: false
 ---
 
-# VMR Object
+# VMR Class
 
 ---
 
 ## `bus` and `strip` Arrays
-Array of [`bus`/`strip` objects]({{ site.baseurl }}{% link VMR-Class/bus-strip-object.md %}).
+Array of [`bus`/`strip` objects]({% link VMR-Class/bus-strip-object.md %}).
 
-## [`recorder` Object]({{ site.baseurl }}{% link VMR-Class/recorder-object.md %})
+## [`recorder` Object]({% link VMR-Class/recorder-object.md %})
 Use this object to control voicemeeter's recorder.
 
 ## [`vban` Object]()
