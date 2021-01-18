@@ -1,6 +1,6 @@
 ---
 layout: default
-title: macroButton object
+title: MacroButton Object
 parent: VMR Class
 nav_order: 7
 ---

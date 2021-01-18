@@ -1,6 +1,6 @@
 ---
 layout: default
-title: command object
+title: Command Object
 parent: VMR Class
 nav_order: 5
 ---
@@ -73,7 +73,7 @@ Shows/hides the VBAN-Chat Dialog.
 ```
 
 ## `state(buttonIndex, [state])`
-Changes a Macro Button's State, pass `-1` to the `state` parameter to invert it.
+Changes the actual state of a macro button, pass `-1` to the `state` parameter to invert it.
 
 If `state` is not passed, the current state for the button is returned.
 ```lua
@@ -82,15 +82,16 @@ If `state` is not passed, the current state for the button is returned.
 ```
 
 ## `stateOnly(buttonIndex, [state])`
-Changes a Button's State only, pass `-1` to the `state` parameter to invert it.
+Changes the visual state of a macro button, pass `-1` to the `state` parameter to invert it.
 
-If `state` is not passed, the current state for the button is returned.
+If `state` is not passed, the current visual state for the button is returned.
 ```lua
-    voicemeeter.command.stateOnly(2,1)
+    voicemeeter.command.stateOnly(2,0)
+    ;-- releases the key but does not run the release code programmed into the macrobutton.
 ```
 
 ## `trigger(buttonIndex, [state])`
-Changes a Button's Trigger Enable State, pass `-1` to the `state` parameter to invert it.
+Changes a button's trigger state, pass `-1` to the `state` parameter to invert it.
 
 If `state` is not passed, the current state for the button's trigger is returned.
 ```lua

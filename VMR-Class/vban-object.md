@@ -1,6 +1,6 @@
 ---
 layout: default
-title: vban object
+title: VBAN Object
 parent: VMR Class
 nav_order: 4
 ---

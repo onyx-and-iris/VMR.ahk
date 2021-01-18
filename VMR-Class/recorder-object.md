@@ -1,6 +1,6 @@
 ---
 layout: default
-title: recorder object
+title: Recorder Object
 parent: VMR Class
 nav_order: 3
 ---

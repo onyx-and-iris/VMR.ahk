@@ -1,6 +1,6 @@
 ---
 layout: default
-title: option object
+title: Option Object
 parent: VMR Class
 nav_order: 6
 ---
