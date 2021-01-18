@@ -1,9 +1,9 @@
 ---
 layout: default
-title: VMR Object
+title: VMR Class
 has_children: true
 nav_order: 2
-permalink: /VMR-Object 
+permalink: /VMR-Class 
 has_toc: false
 ---
 
@@ -14,7 +14,7 @@ has_toc: false
 ## `bus` and `strip` Arrays
 Array of [`bus`/`strip` objects]({{ site.baseurl }}{% link VMR-Object/bus-strip-object.md %}).
 
-## [`recorder` Object]()
+## [`recorder` Object]({{ site.baseurl }}{% link VMR-Object/recorder-object.md %})
 Use this object to control voicemeeter's recorder.
 
 ## [`vban` Object]()

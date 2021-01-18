@@ -1,7 +1,7 @@
 ---
 layout: default
 title: recorder object
-parent: VMR Object
+parent: VMR Class
 nav_order: 3
 ---
 # `recorder` object
