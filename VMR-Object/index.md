@@ -3,6 +3,7 @@ layout: default
 title: VMR Object
 has_children: true
 nav_order: 2
+permalink: /VMR-Object 
 has_toc: false
 ---
 
