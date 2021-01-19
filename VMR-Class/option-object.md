@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Option Object
+title: Option
 parent: VMR Class
 nav_order: 6
 ---
-# `option` object
+# `option`
 
 Use this object to access/modify option parameters.
 

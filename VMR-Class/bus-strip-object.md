@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Bus/Strip Object
+title: Bus/Strip
 parent: VMR Class
 nav_order: 2
 ---
-# `bus`/`strip` object
+# `bus`/`strip`
 
 Use this object to access or modify bus/strip parameters.
 

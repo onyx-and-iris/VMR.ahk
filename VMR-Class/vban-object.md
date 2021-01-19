@@ -1,10 +1,10 @@
 ---
 layout: default
-title: VBAN Object
+title: VBAN
 parent: VMR Class
 nav_order: 4
 ---
-# `vban` object
+# `vban`
 
 Use this object to control VoiceMeeter’s VBAN interface.
 

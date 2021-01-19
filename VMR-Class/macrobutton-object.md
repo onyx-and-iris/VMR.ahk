@@ -1,10 +1,10 @@
 ---
 layout: default
-title: MacroButton Object
+title: MacroButton
 parent: VMR Class
 nav_order: 7
 ---
-# `macroButton` object
+# `macroButton`
 
 Use this object to access/modify macro buttons status.
 

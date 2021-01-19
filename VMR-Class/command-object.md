@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Command Object
+title: Command
 parent: VMR Class
 nav_order: 5
 ---
-# `command` object
+# `command`
 
 Use this object to access command methods.
 

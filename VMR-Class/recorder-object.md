@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Recorder Object
+title: Recorder
 parent: VMR Class
 nav_order: 3
 ---
-# `recorder` object
+# `recorder`
 
 Use this object to control VoiceMeeter Banana/Potato's recorder.
 
