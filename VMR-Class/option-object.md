@@ -28,12 +28,12 @@ Use this object to access/modify option parameters.
 ## Methods
 
 ## `delay(busIndex, [delay])`
-Changes the bus's output delay.
+Changes the bus's output delay
 
 ```lua
     voicemeeter.option.delay(2,200)
 ```
-If `delay` is not passed, it will return the current delay (in ms) of the bus
+If `delay` is not passed, it will return the current delay  for that bus
 ```lua
     delay:= voicemeeter.option.delay(1)
 ```

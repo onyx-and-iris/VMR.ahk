@@ -34,7 +34,7 @@ Use this object to control VoiceMeeter Banana/Potato's recorder.
 ## Methods
 
 ## `ArmBus(index, [onOff])`
-If `onOff` is passed to the method, it switches the recording mode to 1 (bus) and arms/disarms the given bus.
+If `onOff` is passed to the method, it switches the recording mode to 1 (bus) and arms/disarms the given bus
 
 ```lua
     voicemeeter.recorder.ArmBus(3,true)
@@ -46,7 +46,7 @@ If `onOff` is not passed, it will return the state of the given bus (armed/disar
 ```
 
 ## `ArmStrip(index, [onOff])`
-If `onOff` is passed to the method, it switches the recording mode to 0 (strip) and arms/disarms the given strip.
+If `onOff` is passed to the method, it switches the recording mode to 0 (strip) and arms/disarms the given strip
 
 ```lua
     voicemeeter.recorder.ArmStrip(1,true)

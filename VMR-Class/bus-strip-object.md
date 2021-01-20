@@ -58,9 +58,9 @@ Use this object to access or modify bus/strip parameters.
 ```
 
 ## Retrieve the gain level of a bus/strip
-`level` Array : contains the current level (in dB) for every channel a bus/strip has.
+`level` Array : contains the current level (in dB) for every channel a bus/strip has
 
-Hardware (physical) strips have 2 channels (left, right), Buses and virtual strips have 8 channels.
+Hardware (physical) strips have 2 channels (left, right), Buses and virtual strips have 8 channels
 ```lua
     level := voicemeeter.bus[1].level[1] 
     max_level := Max(voicemeeter.bus[1].level*)

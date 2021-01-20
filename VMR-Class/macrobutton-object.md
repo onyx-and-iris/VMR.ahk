@@ -12,7 +12,7 @@ Use this object to access/modify macro buttons status.
 ## Methods
 
 ## `setStatus(nuLogicalButton, fValue, bitMode)`
-Set the status of a macro button.
+Set the status of a macro button
 
 ```lua
     ;-- sets macro button 1 to have trigger on
@@ -23,7 +23,7 @@ Set the status of a macro button.
 ```
 
 ## `getStatus(nuLogicalButton, bitMode)`
-Retrieve the status of a macro button.
+Retrieve the status of a macro button
 
 ```lua
     buttonStatus:= voicemeeter.macroButton.getStatus(1,3)

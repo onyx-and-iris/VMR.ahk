@@ -46,7 +46,7 @@ Returns Voicemeeter's type.
 
 `3` : Voicemeeter Potato
 ## `runVoicemeeter([type])`
-Runs the highest version installed , or a specific version if `type` is specified
+Runs the highest version installed , or a specific version if `type` is passed
 
 `type` : 
 
