@@ -9,7 +9,8 @@ nav_order: 6
 Use this object to access/modify option parameters.
 
 ---
-##### for a list of all `option` parameters, check out [VBVMR docs](http://download.vb-audio.com/Download_CABLE/VoicemeeterRemoteAPI.pdf#page=15)
+for a list of all `option` parameters, check out [VBVMR docs](http://download.vb-audio.com/Download_CABLE/VoicemeeterRemoteAPI.pdf#page=15)
+{: .fs-3 }
 
 ## Set any parameter
 

@@ -28,5 +28,7 @@ Retrieve the status of a macro button
 ```lua
     buttonStatus:= voicemeeter.macroButton.getStatus(1,3)
 ```
+{: .fs-4 }
 
-##### See [VBVMR docs](http://download.vb-audio.com/Download_CABLE/VoicemeeterRemoteAPI.pdf#page=8)
+See [VBVMR docs](http://download.vb-audio.com/Download_CABLE/VoicemeeterRemoteAPI.pdf#page=8)
+{: .fs-3 }

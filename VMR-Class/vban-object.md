@@ -9,7 +9,8 @@ nav_order: 4
 Use this object to control VoiceMeeter’s VBAN interface.
 
 ---
-##### for a list of all `vban` parameters, check out [VBVMR docs](http://download.vb-audio.com/Download_CABLE/VoicemeeterRemoteAPI.pdf#page=17)
+for a list of all `vban` parameters, check out [VBVMR docs](http://download.vb-audio.com/Download_CABLE/VoicemeeterRemoteAPI.pdf#page=17)
+{: .fs-3 }
 
 ## Set any parameter
 

@@ -25,4 +25,6 @@ To use `VMR.ahk` in your script, follow these steps:
         voicemeeter.bus[1].mute:= true
         voicemeeter.strip[4].gain++
     ```
-##### This documentation is for VMR.ahk, If you need help with the Voicemeeter API check out [their documentation](http://download.vb-audio.com/Download_CABLE/VoicemeeterRemoteAPI.pdf)
+{: .fs-4 }
+This documentation is for VMR.ahk, If you need help with the Voicemeeter API check out [their documentation](http://download.vb-audio.com/Download_CABLE/VoicemeeterRemoteAPI.pdf)
+{: .fs-3 }
