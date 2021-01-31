@@ -15,10 +15,10 @@ Use this object to access/modify macro buttons status.
 Set the status of a macro button
 
 ```lua
-    ;-- sets macro button 1 to have trigger on
+    ;--> sets macro button 1 to have trigger on
     voicemeeter.macroButton.setStatus(1,1,3)
 
-    ;-- set macrobutton 2 to on.
+    ;--> set macrobutton 2 to on.
     voicemeeter.macroButton.setStatus(2,1,1)
 ```
 

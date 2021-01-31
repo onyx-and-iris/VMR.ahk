@@ -27,9 +27,9 @@ for a list of all `bus`/`strip` parameters, check out [VBVMR docs](http://downlo
 
 ## Set a bus/strip's device
 ```lua
-    ;-- bus[1].device[driver]:= device_name 
-    ;-- driver can be ["wdm","mme","asio","ks]
-    ;-- device_name can be any substring of the full name
+    ;--> bus[1].device[driver]:= device_name 
+    ;--> driver can be ["wdm","mme","asio","ks]
+    ;--> device_name can be any substring of the full name
 
     voicemeeter.strip[2].device["asio"]:= "Microphone (2)" 
 ```
@@ -43,7 +43,7 @@ for a list of all `bus`/`strip` parameters, check out [VBVMR docs](http://downlo
 ```lua
     voicemeeter.bus[3].gain--
     db:= ++voicemeeter.bus[1].gain 
-    ;-- db contains the incremented value
+    ;--> db contains the incremented value
 ```
 
 ## Toggle mute parameter
@@ -51,10 +51,10 @@ for a list of all `bus`/`strip` parameters, check out [VBVMR docs](http://downlo
     voicemeeter.bus[1].mute:= 1
 
     voicemeeter.bus[1].mute:= -1
-    is_muted:= voicemeeter.bus[1].mute ;0
-    ;-- OR
+    is_muted:= voicemeeter.bus[1].mute ;--> 0
+    ;--> OR
     voicemeeter.bus[1].mute--
-    is_muted:= voicemeeter.bus[1].mute ;1
+    is_muted:= voicemeeter.bus[1].mute ;--> 1
 ```
 
 ## Retrieve the gain level of a bus/strip

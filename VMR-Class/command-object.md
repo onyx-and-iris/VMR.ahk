@@ -87,7 +87,7 @@ Changes the visual state of a macro button, pass `-1` to the `state` parameter t
 If `state` is not passed, the current visual state for the button is returned
 ```lua
     voicemeeter.command.stateOnly(2,0)
-    ;-- releases the key but does not run the release code programmed into the macrobutton.
+    ;--> releases the key but does not run the release code programmed into the macrobutton.
 ```
 
 ## `trigger(buttonIndex, [state])`

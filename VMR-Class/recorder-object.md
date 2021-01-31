@@ -63,6 +63,6 @@ If `onOff` is not passed, it will return the state of the given strip (armed/dis
 Swtiches the recording mode to 0 (strip), arms the given strips, disarming the others
 
 ```lua
-    voicemeeter.recorder.ArmStrip(2,true) ;-- 2->armed
-    voicemeeter.recorder.ArmStrips(1,3,5) ;-- 2->disarmed 1,3,5->armed
+    voicemeeter.recorder.ArmStrip(2,true) ;--> 2->armed
+    voicemeeter.recorder.ArmStrips(1,3,5) ;--> 2->disarmed 1,3,5->armed
 ```
