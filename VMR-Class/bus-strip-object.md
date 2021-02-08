@@ -57,7 +57,7 @@ for a list of all `bus`/`strip` parameters, check out [VBVMR docs](http://downlo
     is_muted:= voicemeeter.bus[1].mute ;--> 1
 ```
 
-## Retrieve the gain level of a bus/strip
+## Retrieve the current level of a bus/strip
 `level` Array : contains the current level (in dB) for every channel a bus/strip has
 
 Hardware (physical) strips have 2 channels (left, right), Buses and virtual strips have 8 channels
