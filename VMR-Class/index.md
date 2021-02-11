@@ -14,11 +14,6 @@ has_toc: false
 ## `__New([p_path])` Constructor
 Initilizes the VBVMR class (the actual wrapper) by setting the DLL path and type (64/32) as well as the string encoding which is based on the type of AHK that's running the script (Unicode/ANSI), then loads the correct DLL and its functions addresses.
 
-```lua
-    ;--> the variable name must not be the same name as the class
-    VMR:= new VMR() ;--> no, see https://www.autohotkey.com/docs/Objects.htm#Custom_Classes
-    vm:= new VMR() ;--> yes
-```
 
 ---
 
