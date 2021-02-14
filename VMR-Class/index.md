@@ -77,6 +77,7 @@ Set callback functions for certain events (e.g. to update a user interface)
    voicemeeter.on_update_levels_callback:= Func("syncLevels")
 ```
 {: .fs-4 }
-
-[More info on function objects](https://www.autohotkey.com/docs/objects/Func.htm)
+* [See ui_example.ahk](https://github.com/SaifAqqad/VMR.ahk/blob/master/examples/ui_example.ahk)
+<br>
+* [More info on function objects](https://www.autohotkey.com/docs/objects/Func.htm)
 {: .fs-3 }
