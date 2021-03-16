@@ -23,6 +23,9 @@ Initilizes the VBVMR class (the actual wrapper) by setting the DLL path and type
 Calls voicemeeter's login function and initilizes VMR class properties (objects and arrays).
 
 This method needs to be called first, in order to use the VMR class.
+
+*Note: for VMR to work properly, the script needs to be persistent, scripts that have GUIs or hotkeys are implicitly persistent, to make a regular script persistent add `#Persistent` to the top of the script*
+{: .fs-3 }
 ## `getType()`
 Returns voicemeeter's type.
 
