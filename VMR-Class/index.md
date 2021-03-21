@@ -70,17 +70,31 @@ Use this object to access/modify macro buttons statuses.
 ## Callback functions
 Set callback functions for certain events (e.g. to update a user interface)
 
-* `on_update_levels_callback` : called whenever the [`level`]({{ site.baseurl }}{% link VMR-Class/bus-strip-object.md %}#retrieve-the-gain-level-of-a-busstrip) array for bus/strip objects is updated.
-* `on_update_parameters_callback` : called whenever voicemeeter's parameters change on the UI or by another app.
-* `on_update_macrobuttons_callback` : called whenever a macrobutton's state is changed.
-
+* `onUpdateLevels` : called whenever the [`level`]({{ site.baseurl }}{% link VMR-Class/bus-strip-object.md %}#retrieve-the-gain-level-of-a-busstrip) array for bus/strip objects is updated.
+* `onUpdateParameters` : called whenever voicemeeter's parameters change on the UI or by another app.
+* `onUpdateMacrobuttons` : called whenever a macrobutton's state is changed.
+* `onMidiMessage`: called whenever voicemeeter receives a MIDI message
+    
+```lua
+    ;--> Set a function object
+    voicemeeter.onUpdateLevels:= Func("syncLevels")
+```
 
 ```lua
     ;--> Set a function object
-   voicemeeter.on_update_levels_callback:= Func("syncLevels")
+    voicemeeter.onMidiMessage:= Func("processMidi")
+
+    ;--> Should have one parameter
+    ;--> Receives an array of bytes that represents midi messages 
+    ;--> usually, every 3 elements represent a single midi message
+    processMidi(midi){
+        ;--> process midi[1], midi[2],...
+    }
 ```
 {: .fs-4 }
 * [See ui_example.ahk](https://github.com/SaifAqqad/VMR.ahk/blob/master/examples/ui_example.ahk)
+<br>
+* [See midi_message_example.ahk](https://github.com/SaifAqqad/VMR.ahk/blob/master/examples/midi_message_example.ahk)
 <br>
 * [More info on function objects](https://www.autohotkey.com/docs/objects/Func.htm)
 {: .fs-3 }
