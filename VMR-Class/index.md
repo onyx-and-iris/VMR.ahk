@@ -70,7 +70,7 @@ Use this object to access/modify macro buttons statuses.
 ## Callback functions
 Set callback functions for certain events (e.g. to update a user interface)
 
-* `onUpdateLevels` : called whenever the [`level`]({{ site.baseurl }}{% link VMR-Class/bus-strip-object.md %}#retrieve-the-gain-level-of-a-busstrip) array for bus/strip objects is updated.
+* `onUpdateLevels` : called whenever the [`level`]({{ site.baseurl }}{% link VMR-Class/bus-strip-object.md %}#retrieve-the-current-level-of-a-busstrip) array for bus/strip objects is updated.
 * `onUpdateParameters` : called whenever voicemeeter's parameters change on the UI or by another app.
 * `onUpdateMacrobuttons` : called whenever a macrobutton's state is changed.
 * `onMidiMessage`: called whenever voicemeeter receives a MIDI message
@@ -96,5 +96,5 @@ Set callback functions for certain events (e.g. to update a user interface)
 <br>
 * [See midi_message_example.ahk](https://github.com/SaifAqqad/VMR.ahk/blob/master/examples/midi_message_example.ahk)
 <br>
-* [More info on function objects](https://www.autohotkey.com/docs/objects/Func.htm)
+* [More info on function objects (AHK docs)](https://www.autohotkey.com/docs/objects/Func.htm)
 {: .fs-3 }
